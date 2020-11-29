@@ -72,9 +72,7 @@ function dob(){
         else if(inputDate>currentDate)
             alert("DOB must be in the past");
         else{
-            // let years = currentDate.getFullYear() - inputDate.getFullYear();
-
-            // yearDiff.innerHTML = 'Years : ' + years;
+            
 
             let milliSecDiff = currentDate.getTime() - inputDate.getTime();
             miliseconds.innerHTML = 'MiliSeconds : ' + milliSecDiff;
